@@ -1,0 +1,55 @@
+body {
+    background-color: #FFE9FF;
+    background-image: url(bungahome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kotak {
+    padding :25px;
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    left: 450px;
+    top: 120px;
+    background: #FFE9FF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.kotak form h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+    color: #2B27EF;
+}
+#btn_log {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 270px;
+    top: 380px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.kotak form label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.kotak form input {
+    border: none;
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #000000;
+    font-size: 20px;
+
+}
